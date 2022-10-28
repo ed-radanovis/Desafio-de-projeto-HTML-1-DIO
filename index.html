@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+   <meta charset="UTF-8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>Desafio de projeto - Primeiros Passos com HTML</title>
+</head>
+
+<body>
+   <h1>Módulo 1 - Primeiros Passos com HTML</h1>
+   <hr />
+
+   <h2 id="inicio">Índice</h2>
+   <p>
+      <strong><u>Curso DIO, ministrado pelo Sr. Diogo Mainardes:</u> </strong>Neste índice estão os tópicos apresentados
+      no mencionado curso.
+   </p>
+   <ul>
+      <li><a href="#historia">História dos computadores</a></li>
+      <li><a href="#surgimento">Surgimento da Internet</a></li>
+      <li>
+         <a href="#modelo">O que é <i>Modelo clients - servers</i>?</a>
+      </li>
+      <li><a href="#estrutura">Estruturas básicas de um HTML?</a></li>
+      <li><a href="#linguagens">Sobre linguagens de programação</a></li>
+      <li><a href="#referencias">Links de referências</a></li>
+   </ul>
+   </br>
+
+   <h2 id="historia">História dos computadores</h2>
+   <small><a href="#inicio">(Come back)</a></small>
+   <hr />
+   <p>
+      <strong><u>A HISTÓRIA:</u>
+         <br />
+      </strong>Computador é um
+      <strong>conjunto de componentes eletrônicos</strong><i>(máquina)</i> capaz
+      de executar variados tipos de algoritmos e tratamento de informações
+      (processamento de dados).Um computador pode possuir inúmeros atributos,
+      dentre eles armazenamento de dados, processamento de dados, cálculo em
+      grande escala, desenho industrial, tratamento de imagens gráficas,
+      realidade virtual, entretenimento e cultura. No passado, o termo já foi
+      aplicado a pessoas responsáveis por algum cálculo. Em geral, entende-se
+      por computador um sistema físico que realiza algum tipo de computação.
+      Existe ainda o conceito matemático rigoroso, utilizado na teoria da
+      computação. Assumiu-se que os computadores pessoais e laptops são ícones
+      da Era da Informação; e isto é o que muitas pessoas consideram como
+      "computador". Entretanto, atualmente as formas mais comuns de computador
+      em uso são os sistemas embarcados, pequenos dispositivos usados para
+      controlar outros dispositivos, como robôs, câmeras digitais ou brinquedos.
+   </p>
+   <p>
+      As primeiras máquinas de computar <b>Pascaline</b>, máquina calculadora feita por
+      Blaise Pascal. <b>John Napier <small>(1550-1617)</small></b>, escocês inventor dos logaritmos,
+      também inventou os ossos de Napier, que eram tabelas de multiplicação
+      gravadas em bastão, o que evitava a memorização da tabuada. A primeira
+      máquina computadora de verdade foi construída por Wilhelm Schickard sendo
+      capaz de somar, subtrair, multiplicar e dividir. Essa máquina foi perdida
+      durante a guerra dos trinta anos, sendo que recentemente foi encontrada
+      alguma documentação sobre ela. Durante muitos anos nada se soube sobre
+      essa máquina, por isso, atribuía-se a <b>Blaise Pascal <small>(1623-1662)</small></b> a
+      construção da primeira máquina calculadora, que fazia apenas somas e
+      subtrações. A máquina Pascal foi criada com objetivo de ajudar seu pai
+      a computar os impostos em Rouen, França. O projeto de Pascal foi bastante
+      aprimorado pelo matemático alemão <b>Gottfried Wilhelm Leibniz <small>(1646-1726)</small></b>,
+      que também inventou o cálculo, o qual sonhou que, um dia no futuro, todo o
+      raciocínio pudesse ser substituído pelo girar de uma simples alavanca.
+      Todas essas máquinas, porém, estavam longe de ser um computador de uso
+      geral, pois não eram programáveis. Isto quer dizer que a entrada era feita
+      apenas de números, mas não de instruções a respeito do que fazer com os
+      números. Babbage Réplica (parte) do Calculador Diferencial criado por
+      Charles Babbage. A origem da ideia de programar uma máquina vem da
+      necessidade de que as máquinas de tecer produzissem padrões de cores
+      diferentes. Assim, no século XVIII foi criada uma forma de representar os
+      padrões em cartões de papel perfurado, que eram tratados manualmente. Em
+      1801, <b>Joseph Marie Jacquard <small>(1752-1834)</small></b> inventa um tear mecânico, com uma
+      leitora automática de cartões. A ideia de Jacquard atravessou o Canal da
+      Mancha, onde inspirou <b>Charles Babbage <small>(1792-1871)</small></b>, um professor de
+      matemática de Cambridge, a desenvolver uma máquina de “tecer números”, uma
+      máquina de calcular onde a forma de calcular pudesse ser controlada por
+      cartões. Tudo começou com a tentativa de desenvolver uma máquina capaz de
+      calcular polinômios por meio de diferenças, o calculador diferencial.
+      Enquanto projetava seu calculador diferencial, a ideia de Jacquard fez com
+      que Babbage imaginasse uma nova e mais complexa máquina, o calculador
+      analítico, máquina com alguns elementos que remetem aos computadores
+      atuais. Sua parte principal seria um conjunto de rodas dentadas, o moinho,
+      formando uma máquina de somar com precisão de cinquenta dígitos. As
+      instruções seriam lidas de cartões perfurados. Os cartões seriam lidos em
+      um dispositivo de entrada e armazenados, para futuras referências, em um
+      banco de mil registradores. Cada um dos registradores seria capaz de
+      armazenar um número de cinquenta dígitos, que poderiam ser colocados lá
+      por meio de cartões a partir do resultado de um dos cálculos do moinho.
+      Além disso tudo, Babbage imaginou a primeira máquina de impressão, que
+      imprimiria os resultados dos cálculos, contidos nos registradores. Babbage
+      conseguiu, durante algum tempo, fundos para sua pesquisa, porém não
+      conseguiu completar sua máquina no tempo prometido e não recebeu mais
+      dinheiro. Hoje, partes de sua máquina podem ser vistas no Museu Britânico,
+      que também construiu uma versão completa, utilizando as técnicas
+      disponíveis na época.
+   <blockquote>Junto com Babbage, trabalhou a jovem <b>Ada Augusta</b>,
+      filha do poeta Lord Byron, conhecida como <i>Lady Lovelace</i> e <i>Ada Lovelace</i>.
+      Ada foi a <u><mark>primeira programadora da história</mark></u>, projetando e explicando, a
+      pedido de Babbage, programas para a máquina inexistente. Ada inventou os
+      conceitos de subrotina, uma seqüência de instruções que pode ser usada
+      várias vezes; de loop, uma instrução que permite a repetição de uma
+      sequência de instruções, e do salto condicional, instrução que permite
+      saltar para algum trecho do programa caso uma condição seja satisfeita.</blockquote>
+   Ada Lovelace e Charles Babbage estavam avançados demais para o seu tempo,
+   tanto que até a década de 1940, nada se inventou parecido com seu
+   computador analítico. Até essa época foram construídas muitas máquinas
+   mecânicas de somar destinadas a controlar negócios (principalmente caixas
+   registradoras) e algumas máquinas inspiradas na calculadora diferencial de
+   Babbage, para realizar cálculos de engenharia (que não alcançaram grande
+   sucesso).
+   </p>
+
+   <h2 id="surgimento">Surgimento da Internet</h2>
+   <small><a href="#inicio">(Come back)</a></small>
+   <hr />
+   <p>
+      <strong><u>OS PRIMÓRDIOS:</u> </strong>
+      <br />
+      A internet surgiu a partir de pesquisas militares no auge da<i>Guerra Fria</i>.
+      Neste contexto, em que os dois blocos ideológicos e politicamente antagônicos exerciam enorme controle e
+      influência no mundo, qualquer mecanismo, qualquer inovação, qualquer ferramenta nova poderia contribuir nessa
+      disputa liderada pela <b>União Soviética</b> e pelos <b>Estados Unidos</b>: as duas superpotências compreendiam a
+      eficácia e a
+      necessidade absoluta dos meios de comunicação. Nessa perspectiva, o governo dos Estados Unidos temia um ataque
+      russo às bases militares. Um ataque poderia trazer a público informações sigilosas, tornando os EUA vulneráveis.
+      Então foi idealizado um modelo de troca e compartilhamento de informações que permitisse a descentralização das
+      mesmas. Assim, se o Pentágono fosse atingido, as informações armazenadas ali não estariam perdidas. Era preciso,
+      portanto, criar uma rede, a <abbr><b>ARPANET</b></abbr>, criada pela <abbr><b>ARPA</b></abbr>, sigla para <i>Advanced Research Projects
+      Agency</i>. Em 1962, J.C. R. Licklider, do <a target="_blank" href="https://www.mit.edu/">Instituto Tecnológico
+      de Massachusetts</a><abbr>(MIT)</abbr>, já falava em termos da criação de uma <mark>Rede Intergaláctica de Computadores</mark>
+      (Intergalactic Computer Network, em inglês).
+      A Internet também teve outros importantes atores que influenciaram o seu surgimento, dentre eles: professores
+      universitários (como Ken King), estudantes (como Vint Cerf), empresas de tecnologia (como a <abbr>IBM</abbr>) e alguns políticos
+      norte-americanos (como Al Gore); caindo-se, portanto, a tese que vigorava anteriormente que enfatizava somente a 
+      vertente militar da sua criação.
+   </p>
+   <p>
+      <strong><u>O COMEÇO PROPRIAMENTE DITO:</u></strong>
+      <br />
+      A <abbr>ARPANET</abbr> funcionava através de um sistema conhecido como chaveamento de pacotes, que é um sistema de transmissão
+      de dados em rede de computadores no qual as informações são divididas em pequenos pacotes, que por sua vez contém
+      trecho dos dados, o endereço do destinatário e informações que permitiam a remontagem da mensagem original. O
+      ataque inimigo nunca aconteceu, mas o que o <b>Departamento de Defesa dos Estados Unidos</b> não sabia era que
+      dava início ao <mark>maior fenômeno midiático do século 20</mark>, único meio de comunicação que em apenas <u>4
+      anos</u> conseguiria atingir cerca de <strong>50 milhões de pessoas.</strong>
+   <blockquote> Em 29 de Outubro de 1969 ocorreu a transmissão do que pode ser considerado o primeiro E-mail da
+      história. O texto desse primeiro e-mail seria "LOGIN", conforme desejava o Professor Leonard Kleinrock da Universidade
+      da Califórnia em Los Angeles (<abbr>UCLA</abbr>), mas o computador no Stanford Research Institute, que recebia a mensagem,
+      parou de funcionar após receber a letra "O".</blockquote>
+   Já na década de 1970, a tensão entre <abbr>URSS</abbr> e <abbr>EUA</abbr> diminui. As duas potências entram definitivamente naquilo em que a
+   história se encarregou de chamar de Coexistência Pacífica. Não havendo mais a iminência de um ataque imediato, o
+   governo dos <abbr>EUA</abbr> permitiu que pesquisadores que desenvolvessem, nas suas respectivas universidades, estudos na área
+   de defesa pudessem também entrar na <abbr><b>ARPANET</b></abbr>. Com isso, a <abbr><b>ARPANET</b></abbr> começou a ter dificuldades em administrar todo
+   este sistema, devido ao grande e crescente número de localidades universitárias contidas nela.
+   Dividiu-se então este sistema em dois grupos, a <abbr>MILNET</abbr>, que possuía as localidades militares e a nova <abbr><b>ARPANET</b></abbr>, que
+   possuía as localidades não militares. O desenvolvimento da rede, nesse ambiente mais livre, pôde então acontecer.
+   Não só os pesquisadores como também os alunos e os amigos dos alunos, tiveram acesso aos estudos já empreendidos e
+   somaram esforços para aperfeiçoá-los. Houve uma época nos Estados Unidos em que sequer se cogitava a possibilidade
+   de comprar computadores prontos, já que a diversão estava em montá-los.
+   A mesma lógica se deu com a Internet. Jovens da contracultura, ideologicamente engajados em uma utopia de difusão
+   da informação, contribuíram decisivamente para a formação da Internet como hoje é conhecida. A tal ponto que o
+   sociólogo espanhol e estudioso da rede Manuel Castells afirmou no livro A Galáxia da Internet (2003) que A
+   Internet é, acima de tudo, uma criação cultural.
+   Um sistema técnico denominado <u>Protocolo de Internet (Internet Protocol)</u> permitia que o tráfego de informações
+   fosse encaminhado de uma rede para outra. Todas as redes conectadas pelo endereço IP na Internet comunicam-se para
+   que todas possam trocar mensagens. Através da National Science Foundation<sup>*</sup>, o governo norte-americano
+   investiu na criação de backbones (que significa espinha dorsal, em português), que são poderosos computadores conectados
+   por linhas que tem a capacidade de dar vazão a grandes fluxos de dados, como canais de fibra óptica, elos de satélite
+   e elos de transmissão por rádio. Além desses backbones, existem os criados por empresas particulares. A elas são
+   conectadas redes menores, de forma mais ou menos anárquica. É basicamente isto que consiste a Internet, que não
+   tem um dono específico.</p>
+
+   <p>O cientista <b>Tim Berners-Lee</b>, do <abbr>CERN</abbr>, criou a <mark><u>World Wide Web</u> em 1992.</mark>
+      A empresa norte-americana <i>Netscape</i> criou o protocolo <u><abbr>HTTPS</abbr> (HyperText Transfer Protocol Secure)</u>,
+      possibilitando o envio de dados criptografados para transações comercias pela internet.
+      Por fim, vale destacar que já em <b>1992</b>, o então senador Al Gore, já falava na Superhighway of Information.
+      Essa "superestrada da informação" tinha como unidade básica de funcionamento a troca, compartilhamento e fluxo contínuo
+      de informações pelos quatro cantos do mundo através de uma rede mundial, a Internet. O que se pode notar é que o
+      interesse mundial aliado ao interesse comercial, que evidentemente observava o potencial financeiro e rentável
+      daquela "novidade", proporcionou o boom (explosão) e a popularização da Internet na década de 1990. 
+      Até <b>2003</b>, cerca de mais de <u>600 milhões</u> de pessoas estavam conectadas à rede. Segundo a Internet World 
+      Estatistics, em junho de <b>2007</b> este número se aproxima de <u>1 bilhão e 234 milhões de usuários.</u>
+   </p>
+
+   <h2 id="modelo">O que é o <i>Modelo Clients - Servers</i>?</h2>
+   <small><a href="#inicio">(Come back)</a></small>
+   <hr />
+   <p>
+      <strong><u>O CONCEITO:</u> </strong>
+      <br />
+      Grande parte da internet é baseada no modelo cliente-servidor. Nesse modelo,
+      os dispositivos do usuário se comunicam por meio de uma <b>rede com servidores</b> localizados centralmente para
+      obter os dados de que precisam, em vez de se comunicarem entre si. 
+      Dispositivos de usuários finais, como notebooks, smartphones e computadores desktop, são considerados <i>"clientes"</i> 
+      dos servidores, como se fossem clientes obtendo serviços de uma empresa. Os dispositivos clientes enviam solicitações
+      de páginas web ou aplicativos aos servidores e os servidores fornecem respostas.
+      O modelo cliente-servidor é usado porque os servidores são normalmente<u> mais poderosos e confiáveis</u> do que
+      os dispositivos dos usuários. Eles também são constantemente guardados e mantidos em ambientes controlados para
+      garantir que estejam sempre ligados e disponíveis; embora servidores individuais possam ficar inativos, geralmente
+      há outros servidores servindo de apoio para deles. Enquanto isso, os usuários podem ligar e desligar seus
+      dispositivos, ou perdê-los ou quebrá-los e isso não deve afetar o serviço de internet para outros usuários.
+      Os servidores podem servir a vários dispositivos clientes ao mesmo tempo e cada dispositivo cliente envia
+      solicitações a vários servidores durante o acesso e a navegação na internet.
+   </p>
+   <p>Suponha que um usuário esteja navegando na internet e digite "netflix.com" na barra do navegador. Isso resulta em
+      uma solicitação para os servidores <strong><abbr>DNS</abbr></strong> para o endereço de <strong><abbr>IP</abbr></strong> da netflix.com e os
+      servidores <strong><abbr>DNS</abbr></strong> respondem a essa solicitação enviando o endereço de <strong><abbr>IP</abbr></strong> para o
+      navegador. Em seguida, o navegador do usuário faz uma solicitação aos servidores da Netflix (usando o endereço de
+      IP) para o conteúdo que aparece na página,como as imagens em miniatura do filme, o logotipo da Netflix e a barra
+      de pesquisa. Os servidores da Netflix entregam isso ao navegador e o navegador carrega a página no dispositivo
+      cliente.
+   </p>
+   <p align="center">
+      <img title="exemplo de interação"
+         src="https://www.cloudflare.com/img/learning/serverless/glossary/client-side-vs-server-side/many-to-many-client-server-relationship.svg"
+         width="750" height="350" alt="imagem de vários clientes e servidores interagindo" />
+   </p>
+   <p>
+      <h4><i>O que significa lado do cliente?</i></h4>
+      No desenvolvimento da web, <b>"lado do cliente"</b> refere-se a tudo em um aplicativo web que é exibido ou ocorre no
+      cliente (dispositivo do usuário final). Isso inclui o que o usuário vê, como texto, imagens e o resto da
+      <i><abbr>IU</abbr></i><sup>*</sup>,
+      junto com quaisquer ações que um aplicativo execute no navegador do usuário.
+      Linguagens de marcação como <strong><abbr>HTML</abbr></strong> e <strong><abbr>CSS</abbr></strong> são interpretadas pelo navegador no lado do
+      cliente.
+      Além disso, muitos desenvolvedores contemporâneos estão incluindo processos do lado do cliente em sua arquitetura de
+      aplicativos e deixando de fazer tudo no lado do servidor; a lógica de negócios para páginas <mark>web dinâmicas*</mark>,
+      por exemplo, geralmente é executada no lado do cliente em um aplicativo web moderno. Os processos do lado do cliente quase
+      sempre são escritos em <mark><b><i>JavaScript.</i></b></mark>
+      No exemplo da netflix.com acima, o <strong><abbr>HTML</abbr></strong> , <strong><abbr>CSS</abbr></strong> e <strong>JavaScript</strong> que
+      ditam como a página principal da Netflix aparece para o usuário são interpretados pelo navegador no lado do cliente.
+      A página também pode responder a "eventos": por exemplo, se o mouse do usuário passar sobre uma das imagens em miniatura do
+      filme, a imagem se expande e as miniaturas adjacentes se movem ligeiramente para um lado para abrir espaço para a imagem maior.
+      Este é um exemplo de processo do lado do cliente; o código dentro da própria página web responde ao mouse do usuário e inicia 
+      essa ação sem se comunicar com o servidor.
+      O lado do cliente também é conhecido como <i>front-end</i>, embora esses dois termos não signifiquem exatamente a mesma
+      coisa. O lado do cliente se refere apenas ao local onde os processos são executados, enquanto o <i>front-end</i> se
+      refere aos tipos de processos que são executados no lado do cliente.
+      <blockquote>*Uma página da web dinâmica é aquela que não exibe o mesmo conteúdo para todos os usuários e muda com base na
+      entrada do usuário. A página inicial do Facebook é uma página dinâmica; a página de login do Facebook é, em sua
+      maior parte, estática.</blockquote>
+   </p>
+   <br />
+   <h4><i>O que significa lado do servidor?</i></h4>
+   Muito parecido com o lado do cliente, o <b>"lado do servidor"</b> significa tudo o que acontece no servidor, em vez de no
+   cliente. No passado, quase toda a lógica de negócios era executada no lado do servidor e isso incluía renderizar páginas
+   da web dinâmicas, interagir com bancos de dados, autenticação de identidade e notificações <i>push</i>.
+   O problema de hospedar todos esses processos no lado do servidor é que cada solicitação envolvendo um deles tem que
+   viajar desde o cliente até o servidor, todas as vezes. Isso apresenta uma grande quantidade de <u>latência</u>. Por esse
+   motivo, os aplicativos contemporâneos executam mais códigos no lado do cliente; um caso de uso é renderizar páginas da
+   web dinâmicas em tempo real, executando scripts no navegador que fazem alterações no conteúdo que o usuário vê.
+   Como com <i>"front-end"</i> e "lado do cliente", <i>back-end</i> também é um termo para os processos que ocorrem no servidor, embora
+   <i>back-end</i> se refira apenas aos tipos de processos e lado do servidor se refira ao local onde os processos são executados.
+   </p>
+
+   <h2 id="estrutura">Como é uma estrutura básica de um <i><abbr>HTML</abbr>?</i>?</h2>
+   <small><a href="#inicio">(Come back)</a></small>
+   <hr />
+   <p>
+      <strong><u>ESTRUTURAÇÃO DE DOCUMENTOS:</u> </strong>
+      <br />
+      O <strong><abbr>HTML</abbr></strong> existe desde <b>1991</b> e atualmente está na <u>versão 5</u>, que veio recheada de
+      recursos e funcionalidades que trazem melhorias para o desenvolvimento web, sua responsabilidade principal é demarcar a 
+      estrutura de uma página da web. 
+      Essa estrutura do <strong><abbr>HTML</abbr></strong> é formada por um conjunto de elementos, ou seja, os hipertextos, que
+      se conectam entre si formando a página.
+      Os elementos <strong><abbr>HTML</abbr></strong> ou também chamados de <i>tags</i> <strong><abbr>HTML</abbr></strong>, 
+      são utilizados para informar ao navegador que tipo de estrutura é essa que está sendo construída, podendo ser títulos, 
+      parágrafos, imagens, links, entre outros.      
+      Dessa forma, para que um documento seja interpretado pelo navegador, é necessário que o arquivo tenha a extensão <mark>.html</mark>
+      e a partir disso, poderá ser exibido por qualquer navegador web.      
+      As tags são formadas por uma estrutura própria, iniciam com o sinal <i>“menor que”</i>, em seguida vem o nome daquele elemento
+      e por fim, o sinal <i>“maior que”</i>. Podem ser dispostas em tags que precisam de fechamento e tags que fecham sozinhas
+      (self-closing). O fechamento de uma tag será definido com uma barra (/), sendo que no caso das tags de auto fechamento,
+      não há necessidade da presença desse caractere.
+   </p>
+   <p>
+      Além de definir as partes individuais de sua página (como "um parágrafo" ou "uma imagem"),
+      o <strong><abbr>HTML</abbr></strong> também conta com vários elementos de nível de bloco usados para definir as áreas
+      de seu site <u>(como "o cabeçalho", "o menu de navegação", "a coluna de conteúdo príncipal")</u>.
+      Abaixo vamos explorar como planejar uma estrutura básica de website, e escrever o <strong><abbr>HTML</abbr></strong>
+      para representar essa estrutura.
+      As páginas da web podem e serão muito diferentes umas das outras, mas todas tendem a compartilhar componentes padrão
+      semelhantes, a menos que a página exiba um vídeo ou um jogo em tela cheia, seja parte de algum tipo de projeto de
+      arte ou seja mal estruturada, são eles:
+   <ol>
+      <li>cabeçalho (header)</li>
+      <li>barra de navegação</li>
+      <li>conteúdo principal(main)</li>
+      <li>barra lateral (sidebar)</li>
+      <li>rodapé (footer)</li>
+   </ol>
+   Em seu código <strong><abbr>HTML</abbr></strong>, você pode marcar seções de conteúdo com base em sua funcionalidade.
+   Você pode usar elementos que representam as seções de conteúdo descritas acima sem ambigüidade, e tecnologias assistivas,
+   como leitores de tela, podem reconhecer esses elementos e ajudar com tarefas como "localizar a navegação principal". "ou" 
+   encontre o conteúdo principal. 
+   Como mencionamos anteriormente no curso, há um número de consequências de não usar a estrutura de elemento e semâtica certas 
+   para o trabalho certo.
+   Para implementar essa marcação semântica, o <strong><abbr>HTML</abbr></strong> fornece tags dedicadas que você pode usar para 
+   representar essas seções, por exemplo:
+
+   <ul>
+      <li>cabeçalho: &lt header &gt</li>
+      <li>barra de navegação: &lt nav &gt</li>
+      <li>conteúdo principal: &lt main &gt, com várias subseções de conteúdo representadas por &lt article &gt, &lt section &gt e elementos &lt div &gt</li>
+      <li>rodapé: &lt footer &gt</li>
+   </ul>
+   <p align="center">
+      <img title="exemplo de estruturação"
+         src="https://www.alura.com.br/artigos/assets/o-que-e-html-suas-tags-parte-1-estrutura-basica/imagem2.jpg"
+         width="750" height="350" alt="imagem de modelo de estruturação"  />
+   </p>
+</br>
+   <blockquote>Com isso em mente, pode-se organizar o conteúdo de forma adequada. Assim sendo, segue uma lista com as principais tags para incluir conteúdo à página,
+   como títulos, parágrafos, imagens, links, etc.</blockquote>
+   </br>
+
+   <p align="center">
+      <img title="guia de referencia tags html."
+         src="https://i0.wp.com/ticsyformacion.com/wp-content/uploads/2013/04/infografia_guia_de_referencia_rapida_de_html.png"
+         width="550"  alt="imagem de guia de referencia tags" />
+   </p>
+
+   </p>
+   
+   <h2 id="linguagens">Sobre <i>linguagens de programação</i></h2>
+   <small><a href="#inicio">(Come back)</a></small>
+   <hr />   
+   <p>
+      <strong><u>O QUE SÃO:</u></strong>
+      <br />
+      A linguagem de programação é um método <b>padronizado</b>, formado por um conjunto de regras sintáticas e semânticas, de
+      implementação de um <b>código fonte</b> - que pode ser compilado e transformado em um programa de computador, ou usado como
+      script interpretado - que informará instruções de processamento ao computador.
+      <blockquote> Permite que um programado especifique precisamente quais os dados que o computador irá atuar, como estes
+         dados serão armazenados ou transmitidos e, quais ações devem ser tomadas de acordo com as circunstâncias.
+         Linguagens de programação podem ser usadas para expressar algoritmos com precisão.</blockquote>
+      O conjunto de palavras (lexemas classificados em tokens), compostos de acordo com essas regras, constituem o código
+      fonte de um software.Esse código fonte é depois traduzido para código de máquina, que é executado pelo <u>microprocessador</u>.      
+      Uma das principais metas das linguagens de programação é que programadores tenham uma <mark>maior produtividade</mark>, permitindo
+      expressar suas intenções mais facilmente do que quando comparado com a linguagem que um computador entende nativamente
+      (código de máquina).Assim, linguagens de programação são projetadas para adotar uma <u>sintaxe de nível mais alto</u>, que
+      pode ser mais facilmente entendida por programadores humanos. Linguagens de programação são ferramentas importantes para
+      que programadores e engenheiros de software possam escrever programas mais organizados e com maior rapidez.      
+      Linguagens de programação também tornam os programas menos dependentes de computadores ou ambientes computacionais
+      específicos (propriedade chamada de portabilidade). Isto acontece porque programas escritos em linguagens de
+      programação são traduzidos para o código de máquina do computador no qual será executado em vez de ser diretamente
+      executado. Uma meta ambiciosa do Fortran, uma das primeiras linguagens de programação, era esta independência da máquina
+      onde seria executada.
+   </p>
+   <p>
+      <b>Programação orientada a objetos:</b> Orientação a objetos, também conhecida como Programação Orientada a Objetos <abbr>(POO)</abbr>, 
+      ou ainda em inglês Object-Oriented Programming <abbr>(OOP)</abbr> é um paradigma de análise, projeto e programação de sistemas 
+      de software baseado na composição e interação entre diversas unidades de software chamadas de objetos. O extensivo uso de objetos, 
+      particularmente em conjunção com o mecanismo de herança, caracteriza o estilo de programação orientada a objetos.
+      Em alguns contextos, prefere-se usar modelagem orientada ao objeto <abbr>(UML)</abbr>, em vez de programação. 
+      De fato, o paradigma "orientação a objetos" tem bases conceituais e origem no campo de estudo da cognição, que influenciou a área 
+      de inteligência artificial e da lingüística no campo da abstração de conceitos do mundo real. Na qualidade de método de modelagem,
+      é tida como a melhor estratégia, e mais natural, para se eliminar o "gap semântico", dificuldade recorrente no processo de modelar
+      o mundo real, no domínio do problema, em um conjunto de componentes de software que seja o mais fiel na sua representação deste
+      domínio. Facilitaria a comunicação do profissional modelador e do usuário da área alvo, na medida em que a correlação da
+      simbologia e conceitos abstratos do mundo real e da ferramenta de modelagem (conceitos, terminologia, símbolos, grafismo
+      e estratégias) fosse a mais óbvia, natural e exata possível. A análise e projeto orientados a objetos tem como meta
+      identificar o melhor conjunto de objetos para descrever um sistema de software.O funcionamento deste sistema se dá
+      através do relacionamento e troca de mensagens entre estes objetos. Na programação orientada a objetos, implementa-se um
+      conjunto de classes que definem os objetos presentes no sistema de software. Cada classe determina o comportamento
+      (definido nos métodos) e estados possíveis (atributos) de seus objetos, assim como o relacionamento com outros
+      objetos.
+   </p>
+   <ul><b>Quanto a estrutura de tipos:</b>
+      <br/>
+      As linguagens de programação podem ser definidas de duas formas ortogonais quanto a sua estrutura de tipos.
+      <li>Forte ou Fracamente Tipada</li>
+      <li>Dinâmica ou Estaticamente Tipada</li>
+   </ul>
+   <p>
+      <strong><u>JavaScript:</u></strong>
+      frequentemente abreviado como <strong><abbr>JS</abbr></strong> é uma linguagem de programação interpretada estruturada, de script em alto
+      nível com tipagem dinâmica fraca e multiparadigma (protótipos, orientado a objeto, imperativo e funcional).
+      Juntamente com <strong><abbr>HTML</abbr></strong> e <strong><abbr>CSS</abbr></strong>, o <mark>JavaScript é uma das três principais 
+      tecnologias da World Wide Web.</mark>
+      JavaScript permite páginas da Web interativas e, portanto, é uma parte essencial dos aplicativos da web. A grande maioria dos sites usa, e
+      todos os principais navegadores têm um mecanismo JavaScript dedicado para executá-lo.      
+      <blockquote>É atualmente a principal linguagem para programação client-side em navegadores web. É também bastante
+         utilizada do lado do servidor através de ambientes como o node.js.</blockquote>
+      Como uma linguagem multiparadigma, o JavaScript suporta estilos de programação orientados a eventos, funcionais e
+      imperativos (incluindo orientado a objetos e prototype-based), apresentando recursos como fechamentos (closures) e
+      funções de alta ordem comumente indisponíveis em linguagens populares como Java e C++. Possui <abbr>APIs</abbr> para trabalhar com
+      texto, matrizes, datas, expressões regulares e o DOM, mas a linguagem em si não inclui nenhuma <abbr>E/S</abbr>, como instalações de
+      rede, armazenamento ou gráficos, contando com isso no ambiente host em que está embutido.
+      Foi originalmente implementada como parte dos navegadores web para que scripts pudessem ser executados do lado do
+      cliente e interagissem com o usuário sem a necessidade deste script passar pelo servidor, controlando o navegador,
+      realizando comunicação assíncrona e alterando o conteúdo do documento exibido, porém os mecanismos JavaScript agora
+      estão incorporados em muitos outros tipos de software host, incluindo em servidores e bancos de dados da Web e em
+      programas que não são da Web, como processadores de texto e <abbr>PDF</abbr>, e em tempo de execução ambientes que disponibilizam
+      JavaScript para escrever aplicativos móveis e de desktop, incluindo widgets de área de trabalho.
+      Os termos Vanilla JavaScript e Vanilla <abbr>JS</abbr> se referem ao JavaScript não estendido por qualquer estrutura ou biblioteca
+      adicional. Scripts escritos em Vanilla <abbr>JS</abbr> são códigos JavaScript simples.
+      Embora existam semelhanças entre JavaScript e Java, incluindo o nome da linguagem, a sintaxe e as respectivas
+      bibliotecas padrão, as duas linguagens são distintas e diferem muito no design; JavaScript foi influenciado por
+      linguagens de programação como Self e Scheme.
+   </p>
+   <img title="Logo JavaScript"
+      src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/520px-Unofficial_JavaScript_logo_2.svg.png"
+      width="100" alt="imagem do Logo JavaScript" />
+   <p>
+      <strong><u>Uso em páginas Web:</u></strong>
+      O uso primário de JavaScript é escrever funções que são embarcadas ou incluídas em páginas HTML e que interagem com o
+      <strong>Modelo de Objeto de Documentos <abbr>(DOM)</abbr></strong> da página.
+   <ul>Alguns exemplos deste uso são:
+      <li>abrir uma nova janela (dialog) com controle programático sobre seu tamanho, posição e atributos;</li>
+      <li>validar valores de um formulário para garantir que são aceitáveis antes de serem enviados ao servidor;</li>
+      <li>mudar imagens à medida que o mouse se movimenta sobre elas.</li>
+   </ul>
+      Um recurso de interface útil baseada em janela, é um tipo de janela secundária da tela principal, ou janela
+      principal, para solicitar ou exibir ao usuário determinadas informações complementares, semelhante a “caixa de
+      diálogo” (dialog).   
+      Existem dois tipos de associação entre uma janela de diálogo e a janela principal à qual está associada: "forma
+      modal" (showModalDialog), quando a abertura da janela de diálogo flexível sobreposta a janela principal sem a
+      necessidade de recarregar a página principal após o uso do modal, chamada de <b>Lightbox</b>, bloqueando a interação com
+      janela principal a esmaecendo/escurecendo à fundo até que o diálogo seja encerrado; ou <i>"forma não modal"</i>, em que pode
+      haver interação concomitante nas duas janelas (principal e diálogo) sem bloqueio da principal, O caso mais comum é do
+      diálogo modal.   
+      Pelo fato do código JavaScript rodar localmente no navegador do usuário, e não em um servidor remoto, o navegador
+      pode responder a tais ações rapidamente, fazendo uma aplicação mais responsiva. Além disso, o código JavaScript pode
+      detectar ações de usuário que o <strong><abbr>HTML</abbr></strong> sozinho não pode, tais como teclas pressionadas individualmente.
+      Aplicações como Gmail tomam vantagem disso: muito da lógica da interface do usuário é escrita em JavaScript, e o JavaScript envia
+      requisições de informação, tais como o conteúdo de um correio eletrônico, para o servidor. A tendência mais ampla de
+      programação em Ajax explora de maneira similar este ponto forte. Uma JavaScript engine (também conhecida como
+      interpretador JavaScript ou uma implementação JavaScript) interpreta código fonte JavaScript e o executa de forma
+      adequada. A primeira implementação JavaScript foi criada por Brendan Eich na Netscape Communications Corporation,
+      para o Navegador Netscape. A implementação, nomeada SpiderMonkey, é implementada em C e vem sendo atualizada para
+      conformar com a edição 3 do <abbr>ECMA-262</abbr>. A implementação Rhino, criada primariamente por Norris Boyd (ex-empregado da
+      Netscape; agora no Google) é uma implementação de JavaScript em Java. Rhino, como SpiderMonkey, é conformante com a
+      terceira edição do <abbr>ECMA-262</abbr>.   
+      Por ser o JavaScript a única linguagem que a maioria dos navegadores populares suportam, tem se tornado uma linguagem
+      alvo para muitos frameworks em outras linguagens, a despeito do fato de não ter sido planejado para tal. Não obstante
+      as limitações de desempenho inerente à sua natureza dinâmica, a crescente velocidade das implementações JavaScript
+      tem feito da mesma uma prática linguagem intermediária.
+   </p>
+
+   <h2 id="referencias">Links de referências</h2>
+   <small><a href="#inicio">(Come back)</a></small>
+   <hr />
+   <p>
+      <strong><u>Seguem abaixo as resferências para o conteúdo,</u> </strong>acompanhando os respectivos links:
+   </p>
+   <ul>
+      <li><a target="_blank"
+            href="https://pt.wikipedia.org/wiki/Computador">História do Computador - Wikipédia</a></li>
+      <li><a target="_blank"
+            href="https://pt.wikipedia.org/wiki/Hist%C3%B3ria_da_Internet">História da Internet- Wikipédia</a>
+      </li>
+      <li><a target="_blank"
+            href="https://www.cloudflare.com/pt-br/learning/serverless/glossary/client-side-vs-server-side/">Modelo client-side vs server-side - Cloudflare</a>
+      </li>
+      <li><a target="_blank" href="https://developer.mozilla.org/pt-BR/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure">Estruturas <abbr>HTML</abbr> - developer.mozilla.org</a></li>
+      <li><a target="_blank" href="https://www.alura.com.br/artigos/o-que-e-html-suas-tags-parte-1-estrutura-basica">O que é <abbr>HTML</abbr>e suas tags</a></li>
+      <li><a target="_blank" href="https://pt.wikipedia.org/wiki/Linguagem_de_programa%C3%A7%C3%A3o">Linguagens de programação - Wikipédia</a></li>
+      <li><a target="_blank" href="https://pt.wikipedia.org/wiki/JavaScript#">JavaScript - Wikipédia</a></li>
+      <li><a target="_blank" href="http://w3c.org">http://w3c.org></a></li>
+   </ul>
+</body>
+
+</html>
